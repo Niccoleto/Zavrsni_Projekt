@@ -499,4 +499,35 @@ body {
 }
 
 
+.galerija div {
+	padding: 0;
+	height: 500px;
+}
+
+.overlay {
+	background-color: #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;	
+	bottom: 0;
+	opacity: 0;
+	transition: 2s ease;
+
+
+}
+
+.slika1 {
+		background: url('img/8.jpg') no-repeat;
+		background-size: cover;
+		background-position: center center;
+}
+
+.slika2 {
+		background: url('img/7.jpg') no-repeat;
+		background-size: cover;
+		background-position: center center;
+}
+
+
 	
